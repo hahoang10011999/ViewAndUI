@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cards">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="75dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="268dp"
+                android:background="@drawable/gradiant1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/arrowBackCards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14.7dp"
+                android:layout_marginTop="35.7dp"
+                android:src="@drawable/ic_arrow_back_cards"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvCuen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.7dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Cuentas bancarias y tarjetas "
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="@id/arrowBackCards"
+                app:layout_constraintTop_toBottomOf="@id/arrowBackCards" />
+
+            <TextView
+                android:id="@+id/tvMantenemos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#ffffff"
+                android:textSize="12dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="@id/tvCuen"
+                app:layout_constraintTop_toBottomOf="@+id/tvCuen"
+                tools:text="@string/Cuan" />
+
+            <ImageView
+                android:id="@+id/imgBBVACard"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/ic_bbva_cards"
+                app:layout_constraintTop_toBottomOf="@+id/tvMantenemos" />
+
+            <TextView
+                android:id="@+id/tvMis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="34dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Mis tarjetas"
+                android:textColor="#001d50"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgBBVACard" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="17dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvMis">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="21dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginBottom="16dp"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/imgMasterCard"
+                            android:layout_width="46dp"
+                            android:layout_height="36dp"
+                            android:src="@drawable/ic_mastercard_2" />
+
+                        <TextView
+                            android:id="@+id/tvMasterCard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="31dp"
+                            android:layout_toRightOf="@+id/imgMasterCard"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Mastercard"
+                            android:textColor="#1b1b1b"
+                            android:textSize="16dp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvMasterCard"
+                            android:layout_marginLeft="31dp"
+                            android:layout_toRightOf="@+id/imgMasterCard"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:text="****9889"
+                            android:textColor="#999999"
+                            android:textSize="14dp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:id="@+id/showMenu"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="11dp"
+                            android:src="@drawable/ic_open_popup" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl1"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:id="@+id/imgCancel"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="-5dp"
+                            android:layout_toRightOf="@id/imgRemove"
+                            android:background="@drawable/cus_img2">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_cancel" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/imgRemove"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_toRightOf="@id/imgPencil_w"
+                            android:background="@drawable/cus_img1">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_remove" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/imgPencil_w"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="-5dp"
+                            android:background="@drawable/cus_img">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_pencil_w" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewVisa"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="17dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="21dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginBottom="16dp"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/imgVisa"
+                            android:layout_width="55.3dp"
+                            android:layout_height="18dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginBottom="9dp"
+                            android:src="@drawable/ic_visa" />
+
+                        <TextView
+                            android:id="@+id/tvVisa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="26.7dp"
+                            android:layout_toRightOf="@+id/imgVisa"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Visa black"
+                            android:textColor="#1b1b1b"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvVisa"
+                            android:layout_marginLeft="26.7dp"
+                            android:layout_toRightOf="@+id/imgVisa"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:text="****9889"
+                            android:textColor="#999999"
+                            android:textSize="14dp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:id="@+id/showMenu1"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="11dp"
+                            android:src="@drawable/ic_open_popup" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl2"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:id="@+id/imgCancel1"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="-5dp"
+                            android:layout_toRightOf="@id/imgRemove1"
+                            android:background="@drawable/cus_img2">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_cancel" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/imgRemove1"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_toRightOf="@id/imgPencil_w1"
+                            android:background="@drawable/cus_img1">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_remove" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/imgPencil_w1"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="-5dp"
+                            android:background="@drawable/cus_img">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_pencil_w" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="17dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardViewVisa">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="21dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginBottom="16dp"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/imgVisa1"
+                            android:layout_width="55.3dp"
+                            android:layout_height="18dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginBottom="9dp"
+                            android:src="@drawable/ic_visa" />
+
+                        <TextView
+                            android:id="@+id/tvVisa1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="26.7dp"
+                            android:layout_toRightOf="@+id/imgVisa1"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Visa black"
+                            android:textColor="#1b1b1b"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvVisa1"
+                            android:layout_marginLeft="26.7dp"
+                            android:layout_toRightOf="@+id/imgVisa1"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:text="****9889"
+                            android:textColor="#999999"
+                            android:textSize="14dp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:id="@+id/showMenu2"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="11dp"
+                            android:src="@drawable/ic_open_popup" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl3"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:id="@+id/imgCancel2"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="-5dp"
+                            android:layout_toRightOf="@id/imgRemove2"
+                            android:background="@drawable/cus_img2">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_cancel" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/imgRemove2"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_toRightOf="@id/imgPencil_w2"
+                            android:background="@drawable/cus_img1">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_remove" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/imgPencil_w2"
+                            android:layout_width="37dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="-5dp"
+                            android:background="@drawable/cus_img">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_pencil_w" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/end"
+            android:src="@drawable/ic_plus" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
