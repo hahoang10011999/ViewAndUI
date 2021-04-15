@@ -20,7 +20,8 @@
                 android:layout_height="268dp"
                 android:background="@drawable/gradiant1"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                />
 
             <ImageView
                 android:id="@+id/arrowBackCards"
@@ -63,8 +64,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
                 android:layout_marginTop="12dp"
-                android:src="@drawable/ic_bbva_cards"
-                app:layout_constraintTop_toBottomOf="@+id/tvMantenemos" />
+                android:src="@drawable/bbva_card"
+                app:layout_constraintTop_toBottomOf="@+id/tvMantenemos"
+                android:scaleType="fitXY"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="18dp"/>
 
             <TextView
                 android:id="@+id/tvMis"
