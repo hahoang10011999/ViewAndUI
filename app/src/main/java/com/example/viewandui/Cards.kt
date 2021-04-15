@@ -13,7 +13,7 @@ class Cards : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cards)
         arrowBackCards.setOnClickListener {
-            val intent: Intent = Intent(this,Pay::class.java)
+            val intent: Intent = Intent(this, Pay::class.java)
             startActivity(intent)
             finish()
         }

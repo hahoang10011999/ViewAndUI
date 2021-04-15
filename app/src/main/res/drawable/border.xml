@@ -3,10 +3,10 @@
     <item>
         <shape android:shape="rectangle">
             <stroke
-                android:dashWidth="2dp"
-                android:dashGap="2dp"
                 android:width="1dp"
-                android:color="#999999" />
+                android:color="#999999"
+                android:dashWidth="2dp"
+                android:dashGap="2dp" />
             <solid android:color="#ffffff" />
         </shape>
     </item>

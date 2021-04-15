@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         bottomNavigation.background = null
         floatingButton.setOnClickListener {
-            val intent: Intent = Intent(this,Pay::class.java)
+            val intent: Intent = Intent(this, Pay::class.java)
             startActivity(intent)
             finish()
         }

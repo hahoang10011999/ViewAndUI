@@ -6,9 +6,9 @@
         android:title="Enviar" />
     <item
         android:id="@+id/mRecibir"
-        android:title="Recibir"/>
+        android:title="Recibir" />
     <item
         android:id="@+id/mPerfil"
         android:icon="@drawable/ic_perfil"
-        android:title="Perfil"/>
+        android:title="Perfil" />
 </menu>

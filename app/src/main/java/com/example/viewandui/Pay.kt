@@ -10,12 +10,12 @@ class Pay : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pay)
         cardView3.setOnClickListener {
-            val intent: Intent = Intent(this,Cards::class.java)
+            val intent: Intent = Intent(this, Cards::class.java)
             startActivity(intent)
             finish()
         }
         arrowBack.setOnClickListener {
-            val intent: Intent = Intent(this,MainActivity::class.java)
+            val intent: Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
