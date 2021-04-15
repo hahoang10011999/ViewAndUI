@@ -17,10 +17,7 @@
             android:layout_height="match_parent"
             android:layout_above="@+id/coordinator"
             android:background="@color/backgroundColor">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            
 
                 <ImageView
                     android:id="@+id/imgAvatar"
@@ -480,14 +477,13 @@
                         </RelativeLayout>
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
-            </RelativeLayout>
         </RelativeLayout>
     </androidx.core.widget.NestedScrollView>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinator"
         android:layout_width="match_parent"
-        android:layout_height="95dp"
+        android:layout_height="100dp"
         android:layout_alignParentBottom="true">
 
         <com.google.android.material.bottomappbar.BottomAppBar
