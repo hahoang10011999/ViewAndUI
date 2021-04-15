@@ -61,12 +61,14 @@
                 android:layout_marginTop="22dp"
                 android:layout_marginRight="17.1dp"
                 app:cardCornerRadius="20dp">
-
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/gradient">
-
+                    android:background="@color/start">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cus_view"/>
                     <androidx.cardview.widget.CardView
                         android:id="@+id/img"
                         android:layout_width="50dp"
