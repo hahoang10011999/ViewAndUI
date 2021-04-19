@@ -29,7 +29,7 @@
             android:fontFamily="@font/montserrat_medium"
             android:text="Revisar y enviar "
             android:textColor="#1b1b1b"
-            android:textSize="16dp"
+            android:textSize="16sp"
             app:layout_constraintLeft_toRightOf="@+id/arrowBack"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,7 +73,7 @@
                     android:fontFamily="@font/montserrat_bold"
                     android:text="David Paz "
                     android:textColor="#1b1b1b"
-                    android:textSize="14dp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -85,7 +85,7 @@
                     android:fontFamily="@font/montserrat_medium"
                     android:text="davidpaz@correo.com "
                     android:textColor="#999999"
-                    android:textSize="12dp" />
+                    android:textSize="12sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
                     android:fontFamily="@font/montserrat_semibold"
                     android:text="20,00€"
                     android:textColor="#ffffff"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/tvMen"
@@ -111,7 +111,7 @@
                     android:fontFamily="@font/montserrat_medium"
                     android:text="Mensaje"
                     android:textColor="#1b1b1b"
-                    android:textSize="10dp" />
+                    android:textSize="10sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
                     android:fontFamily="@font/montserrat_medium"
                     android:text="Este es el dinero de la entradas…"
                     android:textColor="#666666"
-                    android:textSize="14dp" />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -132,7 +132,7 @@
                     android:fontFamily="sans-serif"
                     android:text="🎬"
                     android:textColor="#022c59"
-                    android:textSize="14dp" />
+                    android:textSize="14sp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -166,7 +166,7 @@
                         android:paddingBottom="21dp"
                         android:text="Tipo de pago "
                         android:textColor="#1b1b1b"
-                        android:textSize="14dp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -176,7 +176,7 @@
                         android:fontFamily="@font/montserrat_semibold"
                         android:text="Personal "
                         android:textColor="#666666"
-                        android:textSize="14dp" />
+                        android:textSize="14sp" />
 
                     <ImageView
                         android:id="@+id/imgArrowRightBlack"
@@ -212,7 +212,7 @@
                         android:fontFamily="@font/montserrat_semibold"
                         android:text="BBVA"
                         android:textColor="#1b1b1b"
-                        android:textSize="16dp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
                         android:fontFamily="@font/montserrat_medium"
                         android:text="****9889"
                         android:textColor="#999999"
-                        android:textSize="14dp" />
+                        android:textSize="14sp" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -248,7 +248,7 @@
                         android:fontFamily="@font/montserrat_semibold"
                         android:text="Tarifas por transacción "
                         android:textColor="#1b1b1b"
-                        android:textSize="14dp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -258,7 +258,7 @@
                         android:gravity="end"
                         android:text="0,00€ "
                         android:textColor="#666666"
-                        android:textSize="16dp" />
+                        android:textSize="16sp" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -274,7 +274,7 @@
                         android:fontFamily="@font/montserrat_semibold"
                         android:text="Tú pagas"
                         android:textColor="#1b1b1b"
-                        android:textSize="14dp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -284,7 +284,7 @@
                         android:gravity="end"
                         android:text="20,00€ "
                         android:textColor="#00d090"
-                        android:textSize="20dp" />
+                        android:textSize="20sp" />
                 </RelativeLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -316,7 +316,7 @@
                     android:letterSpacing="0.06"
                     android:text="ENVIAR AHORA"
                     android:textColor="#ffffff"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
             </RelativeLayout>
 
