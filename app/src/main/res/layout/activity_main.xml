@@ -75,7 +75,7 @@
                         android:background="@drawable/cus_view" />
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/img"
+                        android:id="@+id/cv_img"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginLeft="30dp"
@@ -106,8 +106,8 @@
                         android:id="@+id/tvNina"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/img"
-                        android:layout_alignLeft="@+id/img"
+                        android:layout_below="@+id/cv_img"
+                        android:layout_alignLeft="@+id/cv_img"
                         android:layout_marginTop="6dp"
                         android:fontFamily="@font/montserrat_medium"
                         android:text="Nina te ha enviado "
@@ -119,7 +119,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/tvNina"
-                        android:layout_alignLeft="@+id/img"
+                        android:layout_alignLeft="@+id/cv_img"
                         android:fontFamily="@font/montserrat_semibold"
                         android:text="20,00€"
                         android:textColor="@color/colorWhite"
@@ -130,7 +130,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/tvMoney"
-                        android:layout_alignLeft="@+id/img"
+                        android:layout_alignLeft="@+id/cv_img"
                         android:layout_marginTop="12dp"
                         android:background="@drawable/cus_textview1"
                         android:fontFamily="@font/montserrat_semibold"
@@ -196,7 +196,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:id="@+id/ln1"
+                    android:id="@+id/ln_Carlos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -224,12 +224,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/ln2"
+                    android:id="@+id/ln_Ruby"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvEn"
                     android:layout_marginLeft="33dp"
-                    android:layout_toRightOf="@id/ln1"
+                    android:layout_toRightOf="@id/ln_Carlos"
                     android:layout_weight="1"
                     android:orientation="vertical">
 
@@ -254,12 +254,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/ln3"
+                    android:id="@+id/ln_Mary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvEn"
                     android:layout_marginLeft="33dp"
-                    android:layout_toRightOf="@id/ln2"
+                    android:layout_toRightOf="@id/ln_Ruby"
                     android:layout_weight="1"
                     android:orientation="vertical">
 
@@ -288,7 +288,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvEn"
                     android:layout_marginLeft="33dp"
-                    android:layout_toRightOf="@id/ln3"
+                    android:layout_toRightOf="@id/ln_Mary"
                     android:layout_weight="1"
                     android:orientation="vertical">
 
