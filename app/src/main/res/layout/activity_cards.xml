@@ -20,8 +20,7 @@
                 android:layout_height="268dp"
                 android:background="@drawable/gradiant1"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/arrowBackCards"
@@ -42,7 +41,6 @@
                 android:text="Cuentas bancarias y tarjetas "
                 android:textColor="#ffffff"
                 android:textSize="20dp"
-                android:textStyle="normal"
                 app:layout_constraintLeft_toLeftOf="@id/arrowBackCards"
                 app:layout_constraintTop_toBottomOf="@id/arrowBackCards" />
 
@@ -54,7 +52,6 @@
                 android:lineSpacingExtra="6dp"
                 android:textColor="#ffffff"
                 android:textSize="12dp"
-                android:textStyle="normal"
                 app:layout_constraintLeft_toLeftOf="@id/tvCuen"
                 app:layout_constraintTop_toBottomOf="@+id/tvCuen"
                 tools:text="@string/Cuan" />
@@ -63,12 +60,12 @@
                 android:id="@+id/imgBBVACard"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
+                android:layout_marginLeft="18dp"
                 android:layout_marginTop="12dp"
-                android:src="@drawable/bbva_card"
-                app:layout_constraintTop_toBottomOf="@+id/tvMantenemos"
-                android:scaleType="fitXY"
                 android:layout_marginRight="17dp"
-                android:layout_marginLeft="18dp"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/bbva_card"
+                app:layout_constraintTop_toBottomOf="@+id/tvMantenemos" />
 
             <TextView
                 android:id="@+id/tvMis"
@@ -80,7 +77,6 @@
                 android:text="Mis tarjetas"
                 android:textColor="#001d50"
                 android:textSize="16dp"
-                android:textStyle="normal"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imgBBVACard" />
 
@@ -123,8 +119,7 @@
                             android:fontFamily="@font/montserrat_semibold"
                             android:text="Mastercard"
                             android:textColor="#1b1b1b"
-                            android:textSize="16dp"
-                            android:textStyle="normal" />
+                            android:textSize="16dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -135,8 +130,7 @@
                             android:fontFamily="@font/montserrat_medium"
                             android:text="****9889"
                             android:textColor="#999999"
-                            android:textSize="14dp"
-                            android:textStyle="normal" />
+                            android:textSize="14dp" />
 
                         <ImageView
                             android:id="@+id/showMenu"
@@ -242,8 +236,7 @@
                             android:fontFamily="@font/montserrat_semibold"
                             android:text="Visa black"
                             android:textColor="#1b1b1b"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -254,8 +247,7 @@
                             android:fontFamily="@font/montserrat_medium"
                             android:text="****9889"
                             android:textColor="#999999"
-                            android:textSize="14dp"
-                            android:textStyle="normal" />
+                            android:textSize="14dp" />
 
                         <ImageView
                             android:id="@+id/showMenu1"
@@ -362,8 +354,7 @@
                             android:fontFamily="@font/montserrat_semibold"
                             android:text="Visa black"
                             android:textColor="#1b1b1b"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -374,8 +365,7 @@
                             android:fontFamily="@font/montserrat_medium"
                             android:text="****9889"
                             android:textColor="#999999"
-                            android:textSize="14dp"
-                            android:textStyle="normal" />
+                            android:textSize="14dp" />
 
                         <ImageView
                             android:id="@+id/showMenu2"

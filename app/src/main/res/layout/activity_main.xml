@@ -25,15 +25,17 @@
                 android:layout_marginLeft="26dp"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:src="@drawable/avatar_1" />
+
                 <ImageView
                     android:layout_width="6dp"
                     android:layout_height="6dp"
-                    android:background="@drawable/reddot"
-                    android:layout_toRightOf="@+id/imgAvatar" />
+                    android:layout_toRightOf="@+id/imgAvatar"
+                    android:background="@drawable/reddot" />
             </LinearLayout>
 
 
@@ -61,14 +63,17 @@
                 android:layout_marginTop="22dp"
                 android:layout_marginRight="17.1dp"
                 app:cardCornerRadius="20dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/start">
+
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/cus_view"/>
+                        android:background="@drawable/cus_view" />
+
                     <androidx.cardview.widget.CardView
                         android:id="@+id/img"
                         android:layout_width="50dp"
@@ -95,8 +100,7 @@
                         android:gravity="center_horizontal"
                         android:text="HOY"
                         android:textColor="#3a2424"
-                        android:textSize="10dp"
-                        android:textStyle="normal" />
+                        android:textSize="10dp" />
 
                     <TextView
                         android:id="@+id/tvNina"
@@ -108,8 +112,7 @@
                         android:fontFamily="@font/montserrat_medium"
                         android:text="Nina te ha enviado "
                         android:textColor="@color/colorWhite"
-                        android:textSize="14dp"
-                        android:textStyle="normal" />
+                        android:textSize="14dp" />
 
                     <TextView
                         android:id="@+id/tvMoney"
@@ -146,8 +149,7 @@
                         android:fontFamily="@font/montserrat_medium"
                         android:text="Mensaje"
                         android:textColor="#ffffff"
-                        android:textSize="10sp"
-                        android:textStyle="normal" />
+                        android:textSize="10sp" />
 
                     <TextView
                         android:id="@+id/tvPor"
@@ -159,8 +161,7 @@
                         android:fontFamily="@font/montserrat_medium"
                         android:text="Por la cena..."
                         android:textColor="#ffffff"
-                        android:textSize="10dp"
-                        android:textStyle="normal" />
+                        android:textSize="10dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -170,8 +171,7 @@
                         android:layout_toRightOf="@id/tvPor"
                         android:text="🍕"
                         android:textColor="#022c59"
-                        android:textSize="10dp"
-                        android:textStyle="normal" />
+                        android:textSize="10dp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -185,8 +185,7 @@
                 android:fontFamily="@font/montserrat_semibold"
                 android:text="Enviar de nuevo"
                 android:textColor="#003087"
-                android:textSize="14dp"
-                android:textStyle="normal" />
+                android:textSize="14dp" />
 
             <LinearLayout
                 android:id="@+id/lnImg"
@@ -221,8 +220,7 @@
                         android:shadowRadius="3"
                         android:text="Carlos Roca"
                         android:textColor="#666666"
-                        android:textSize="10dp"
-                        android:textStyle="normal" />
+                        android:textSize="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -252,8 +250,7 @@
                         android:shadowRadius="3"
                         android:text="Ruby Sanz"
                         android:textColor="#666666"
-                        android:textSize="10dp"
-                        android:textStyle="normal" />
+                        android:textSize="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -283,8 +280,7 @@
                         android:shadowRadius="3"
                         android:text="Mary Rich"
                         android:textColor="#666666"
-                        android:textSize="10dp"
-                        android:textStyle="normal" />
+                        android:textSize="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -313,8 +309,7 @@
                         android:shadowRadius="3"
                         android:text="José Porto"
                         android:textColor="#666666"
-                        android:textSize="10dp"
-                        android:textStyle="normal" />
+                        android:textSize="10dp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -329,8 +324,7 @@
                 android:fontFamily="@font/montserrat_semibold"
                 android:text="Actividad"
                 android:textColor="#003087"
-                android:textSize="14dp"
-                android:textStyle="normal" />
+                android:textSize="14dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -342,8 +336,7 @@
                 android:fontFamily="@font/montserrat_medium"
                 android:text="Ver más movimientos"
                 android:textColor="#025ed7"
-                android:textSize="12dp"
-                android:textStyle="normal" />
+                android:textSize="12dp" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -377,8 +370,7 @@
                                 android:fontFamily="@font/montserrat_medium"
                                 android:text="El corte inglés"
                                 android:textColor="#1b1b1b"
-                                android:textSize="12dp"
-                                android:textStyle="normal" />
+                                android:textSize="12dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -386,8 +378,7 @@
                                 android:fontFamily="@font/montserrat_medium"
                                 android:text="Pago aceptado"
                                 android:textColor="#999999"
-                                android:textSize="10dp"
-                                android:textStyle="normal" />
+                                android:textSize="10dp" />
                         </LinearLayout>
 
                         <TextView
@@ -397,8 +388,7 @@
                             android:layout_centerVertical="true"
                             android:text="-50€"
                             android:textColor="#1b1b1b"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
+                            android:textSize="16sp" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -422,8 +412,7 @@
                                 android:fontFamily="@font/montserrat_medium"
                                 android:text="Maria Lujan"
                                 android:textColor="#1b1b1b"
-                                android:textSize="12dp"
-                                android:textStyle="normal" />
+                                android:textSize="12dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -431,8 +420,7 @@
                                 android:fontFamily="@font/montserrat_medium"
                                 android:text="Pago aceptado"
                                 android:textColor="#999999"
-                                android:textSize="10dp"
-                                android:textStyle="normal" />
+                                android:textSize="10dp" />
                         </LinearLayout>
 
                         <TextView
@@ -442,8 +430,7 @@
                             android:layout_centerVertical="true"
                             android:text="650€"
                             android:textColor="#00c55b"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
+                            android:textSize="16sp" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -466,8 +453,7 @@
                                 android:fontFamily="@font/montserrat_medium"
                                 android:text="El corte inglés"
                                 android:textColor="#1b1b1b"
-                                android:textSize="12dp"
-                                android:textStyle="normal" />
+                                android:textSize="12dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -475,8 +461,7 @@
                                 android:fontFamily="@font/montserrat_medium"
                                 android:text="Pago aceptado"
                                 android:textColor="#999999"
-                                android:textSize="10dp"
-                                android:textStyle="normal" />
+                                android:textSize="10dp" />
                         </LinearLayout>
 
                         <TextView
@@ -486,8 +471,7 @@
                             android:layout_centerVertical="true"
                             android:text="250€"
                             android:textColor="#00c55b"
-                            android:textSize="16sp"
-                            android:textStyle="normal" />
+                            android:textSize="16sp" />
                     </RelativeLayout>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
