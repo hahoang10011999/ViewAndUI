@@ -8,8 +8,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="75dp">
+        android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -54,7 +53,7 @@
                 android:textSize="12sp"
                 app:layout_constraintLeft_toLeftOf="@id/tvCuen"
                 app:layout_constraintTop_toBottomOf="@+id/tvCuen"
-                tools:text="@string/Cuan" />
+                android:text="@string/Cuan" />
 
             <ImageView
                 android:id="@+id/imgBBVACard"
