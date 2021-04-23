@@ -6,7 +6,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/backgroundColor">
+        android:background="@color/backgroundColor"
+        android:paddingBottom="25dp">
 
         <LinearLayout
             android:id="@+id/imgAvatar"
@@ -156,12 +157,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/tvMen"
-                    android:layout_marginLeft="5dp"
+                    android:layout_below="@+id/tvMoney"
+                    android:layout_marginTop="15dp"
                     android:layout_toRightOf="@id/tvPor"
                     android:text="🍕"
                     android:textColor="#022c59"
-                    android:textSize="10sp" />
+                    android:textSize="14sp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -189,7 +190,6 @@
                 android:id="@+id/ln_Carlos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
@@ -218,7 +218,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvEn"
-                android:layout_marginLeft="33dp"
+                android:gravity="center"
                 android:layout_toRightOf="@id/ln_Carlos"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -248,7 +248,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvEn"
-                android:layout_marginLeft="33dp"
+                android:gravity="center"
                 android:layout_toRightOf="@id/ln_Ruby"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -277,7 +277,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvEn"
-                android:layout_marginLeft="33dp"
+                android:gravity="center"
                 android:layout_toRightOf="@id/ln_Mary"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -335,6 +335,7 @@
             android:layout_marginLeft="13.9dp"
             android:layout_marginTop="17dp"
             android:layout_marginRight="21.1dp"
+            android:layout_marginBottom="5dp"
             app:cardCornerRadius="15dp">
 
             <RelativeLayout

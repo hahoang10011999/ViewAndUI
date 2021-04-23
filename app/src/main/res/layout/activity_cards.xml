@@ -60,9 +60,7 @@
                 android:id="@+id/imgBBVACard"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
-                android:layout_marginLeft="18dp"
                 android:layout_marginTop="12dp"
-                android:layout_marginRight="17dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/bbva_card"
                 app:layout_constraintTop_toBottomOf="@+id/tvMantenemos" />
